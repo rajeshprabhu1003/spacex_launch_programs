@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "SpaceX Launches",
   "scripts": {
-    "build": "webpack -w",
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p",
+    "build": "webpack -w"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
