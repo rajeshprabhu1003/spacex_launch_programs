@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="icon" type="image/png" href="https://www.iconfinder.com/data/icons/famous-logos-in-orange/512/logo_orange_spacex-97-512.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+
+  <div class="block header">
+    <span><%= htmlWebpackPlugin.options.title %></span>
+  </div>
+
+  <div class="content">
+    <div class="sub-content filter-content">
+      <span class="filter-header">Filters</span>
+      <span class="toggleFilter"><i class="arrow up"></i></span>
+      <div class="filter-body">
+        <div class="sub-filter">
+          <div class="sub-filter-header">Launch Year</div>
+          <div class="sub-filter-content launch-year"></div>
+        </div>
+        <div class="sub-filter ">
+          <div class="sub-filter-header">Successful Launch</div>
+          <div class="sub-filter-content launch-success">
+            <div class="filter-button launchSuccess">True</div>
+            <div class="filter-button launchSuccess">False</div>
+          </div>
+        </div>
+        <div class="sub-filter ">
+          <div class="sub-filter-header">Successful Landing</div>
+          <div class="sub-filter-content landing-success">
+            <div class="filter-button landSuccess">True</div>
+            <div class="filter-button landSuccess">False</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub-content programs-content"></div>
+  </div>
+
+  <div class="block footer">
+    <span>Developed By: <%= htmlWebpackPlugin.options.developer %></span>
+  </div>
+  <div class="page-loader"> 
+    <div class="loader"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</body>
+
+</html>
