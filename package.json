@@ -4,7 +4,7 @@
   "description": "SpaceX Launches",
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "webpack -w",
+    "heroku-postbuild": "webpack",
     "build": "webpack -w"
   },
   "devDependencies": {
