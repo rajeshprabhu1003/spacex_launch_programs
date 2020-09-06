@@ -28,4 +28,10 @@ I have made this app in a way that you can easily add, modify the code based on 
 Eg: 1. For Api Modifications, there is a separate JS file.
     2. For return objects, a separate JS file (Using ES6 Classes).
 
+Heroku app deployed at below link - 
+https://spacex-launch-programs-info.herokuapp.com/
+
+Additional Files - 
+Required an additional server.js file to deploy on heroku
+
 Happy Using 😊!!
